@@ -1,0 +1,92 @@
+/* General page styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Full-page form container */
+.container {
+  width: 85%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Style for the form box */
+.form-box {
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Heading inside the form */
+.form-box h2 {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Form layout: labels on the left, inputs on the right */
+.form-group {
+  display: flex;
+  align-items: left;
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+
+.form-group label {
+  flex: 0 0 130px;
+  text-align: left;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input and Textarea styles */
+.form-group input,
+.form-group textarea {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Textarea-specific styles */
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* File input alignment */
+.form-group input[type="file"] {
+  padding: 10px;
+}
+
+/* Button styles */
+button {
+  width: 40%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
